@@ -1,0 +1,8 @@
+{
+  "name": "深色模式",
+  "description": "适合科技演示、晚间展示",
+  "primary_color": "#3498DB",
+  "secondary_color": "#9B59B6",
+  "accent_color": "#F1C40F",
+  "style": "dark"
+}

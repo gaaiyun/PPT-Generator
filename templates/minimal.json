@@ -1,0 +1,8 @@
+{
+  "name": "极简黑白",
+  "description": "适合学术报告、简洁演示",
+  "primary_color": "#000000",
+  "secondary_color": "#808080",
+  "accent_color": "#008080",
+  "style": "minimal"
+}
