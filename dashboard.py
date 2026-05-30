@@ -337,7 +337,7 @@ def render_generation_section():
     
     with col2:
         if st.button("✨ 生成 PPT", type="primary", use_container_width=True):
-            with st.spinner("派蒙正在生成 PPT..."):
+            with st.spinner("正在生成 PPT..."):
                 settings = {
                     'template': st.session_state.template_selected,
                     'color_scheme': 'professional',  # 从侧边栏获取
@@ -421,7 +421,7 @@ def main():
     st.divider()
     st.markdown("""
     <div style='text-align: center; color: #7F8C8D; padding: 1rem;'>
-        <p>Created with ❤️ by Paimon | Powered by Streamlit & python-pptx</p>
+        <p>Powered by Streamlit & python-pptx</p>
     </div>
     """, unsafe_allow_html=True)
 

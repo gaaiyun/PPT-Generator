@@ -18,7 +18,7 @@ from ppt_generator import PPTGenerator, create_sample_outline
 
 def main():
     """生成示例 PPT"""
-    print("Paimon is generating sample PPT...")
+    print("Generating sample PPT...")
     
     # 创建生成器
     generator = PPTGenerator()
