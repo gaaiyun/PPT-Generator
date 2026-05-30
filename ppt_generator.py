@@ -12,8 +12,6 @@ from pptx.chart.data import CategoryChartData
 from pptx.enum.chart import XL_CHART_TYPE
 import pandas as pd
 from typing import List, Dict, Optional
-import plotly.graph_objects as go
-import plotly.io as pio
 
 
 class PPTGenerator:
@@ -473,8 +471,8 @@ def create_sample_outline() -> Dict:
 
 if __name__ == "__main__":
     # 测试代码
-    print("派蒙的 PPT 生成器测试开始！✨")
-    
+    print("PPT 生成器测试开始")
+
     generator = PPTGenerator()
     generator.set_color_scheme('professional')
     
@@ -488,4 +486,4 @@ if __name__ == "__main__":
     
     print(f"✓ PPT 生成成功：{output_path}")
     print(f"✓ 幻灯片数量：{generator.get_slide_count()}")
-    print("派蒙的测试完成啦！✨")
+    print("PPT 生成器测试完成")

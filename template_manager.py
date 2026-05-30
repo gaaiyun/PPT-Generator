@@ -339,8 +339,8 @@ def get_available_templates() -> List[Dict]:
 
 if __name__ == "__main__":
     # 测试代码
-    print("派蒙的模板管理器测试开始！✨")
-    
+    print("模板管理器测试开始")
+
     manager = TemplateManager()
     
     # 获取模板列表
@@ -354,5 +354,5 @@ if __name__ == "__main__":
     if templates:
         preview = manager.preview_template(templates[0]['id'])
         print(f"\n✓ 模板预览：{preview}")
-    
-    print("\n派蒙的测试完成啦！✨")
+
+    print("\n模板管理器测试完成")
